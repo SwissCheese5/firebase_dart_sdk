@@ -2,7 +2,6 @@ name: firebase_flutter
 description: A Flutter wrapper over the Firebase Dart SDK.
 version: 0.0.1
 author: long1eu
-homepage:
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -18,12 +17,12 @@ dependencies:
 
   firebase_common:
     git:
-      url: https://github.com/fluttercommunity/firebase_dart_sdk
+      url: https://github.com/SwissCheese5/firebase_dart_sdk.git
       path: firebase_common
-  firebase_firestore:
+  firebase_internal:
     git:
-      url: https://github.com/fluttercommunity/firebase_dart_sdk
-      path: firebase_firestore
+      url: https://github.com/SwissCheese5/firebase_dart_sdk.git
+      path: firebase_internal
 
 flutter:
   plugin:
