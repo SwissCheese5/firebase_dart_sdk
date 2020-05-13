@@ -9,7 +9,9 @@ environment:
 
 dependencies:
   firebase_common:
-    path: ../firebase_common
+    git:
+      url: https://github.com/SwissCheese5/firebase_dart_sdk.git
+      path: firebase_common
   hive: ^1.1.1
 
 dev_dependencies:

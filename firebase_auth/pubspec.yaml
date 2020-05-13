@@ -9,9 +9,13 @@ environment:
 
 dependencies:
   firebase_common:
-    path: ../firebase_common
+    git:
+      url: https://github.com/SwissCheese5/firebase_dart_sdk.git
+      path: firebase_common
   firebase_internal:
-    path: ../firebase_internal
+    git:
+      url: https://github.com/SwissCheese5/firebase_dart_sdk.git
+      path: firebase_internal
   built_value: ^7.0.0
   built_collection: ^4.3.0
   hive: ^1.1.1
